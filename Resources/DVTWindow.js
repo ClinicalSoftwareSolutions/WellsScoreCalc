@@ -26,7 +26,6 @@
 var _platform = Ti.Platform.osname;
 var _scoreLabel = null;
 var TestflightTi = require('testflightjs');
-TestflightTi.takeOff("971a3264aa8e162e1c9306950c9f111b_MTQyOTU1MjAxMi0xMC0xNCAxMDoyNDozOC42NTA0MDM");
 
 var scoreItems = [
         {text:'Active cancer (treatment ongoing, within 6 months, or palliative', score: 1},
@@ -41,6 +40,9 @@ var scoreItems = [
         {text:'An alternative diagnosis is at least as likely as DVT', score: -2}
         ];
 
+/*
+ * Create the window
+ */
 exports.Create = function(_parent) {
     if(!_parent) Ti.API.error("A parent window needs to be passed");
     

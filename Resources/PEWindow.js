@@ -154,5 +154,7 @@ function _viewFlowchart() {
     }
     
     Ti.Analytics.featureEvent('View PE flowchart');
+	TestflightTi.passCheckpoint("View PE flowchart");
+
     return win;
 }
