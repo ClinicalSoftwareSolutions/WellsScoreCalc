@@ -28,7 +28,7 @@ var _scoreLabel = null;
 var TestflightTi = require('testflightjs');
 
 var scoreItems = [
-        {text:'Active cancer (treatment ongoing, within 6 months, or palliative', score: 1},
+        {text:'Active cancer (treatment ongoing, within 6 months, or palliative)', score: 1},
         {text:'Paralysis, paresis or recent plaster immobilisation of the lower extremities', score: 1},
         {text:'Recently bedridden for 3 days or more or major surgery within 12 weeks requiring general or regional anaesthesia', score: 1},
         {text:'Localised tenderness along the distribution of the deep venous system', score: 1},
