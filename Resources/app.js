@@ -23,15 +23,14 @@
 Ti.UI.setBackgroundColor('#fff');
 Ti.UI.setBackgroundImage('/bg.png');
 
-if (Ti.version < 2.1 ) {
-    alert('Sorry - this application template requires Titanium Mobile SDK 2.1 or later');
+if (Ti.version < 3.0 ) {
+    alert('Sorry - this application requires Titanium Mobile SDK 3.0 or later. Becasue of a tableview bug in earlier versions');
 }
 else {    
     //create a private scope to prevent further polluting the global object
     (function() {
         var platform = Ti.Platform.osname;
         var TestflightTi = require('testflightjs');
-		TestflightTi.takeOff("971a3264aa8e162e1c9306950c9f111b_MTQyOTU1MjAxMi0xMC0xNCAxMDoyNDozOC42NTA0MDM");
         var _ng = null;
         var dashwin = DashBoardWin();                  
         
@@ -151,6 +150,5 @@ else {
         return win;        
     }
     
-
     })();
 }
