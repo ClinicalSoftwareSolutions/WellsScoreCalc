@@ -10,7 +10,7 @@
     <sdk-version>3.0.0.GA</sdk-version>
     <id>uk.co.clinicalsoftwaresolutions.wellsscorecalc</id>
     <name>Wells Score</name>
-    <version>1.0.6</version>
+    <version>1.0.7</version>
     <publisher>nevilledastur</publisher>
     <url>http://www.clinicalsoftwaresolutions.co.uk</url>
     <description>Clinical calculator for the Wells score. Used in assessment of VTEs, pulmonary embolism (PE) and deep vein thrombosis (DVT)</description>

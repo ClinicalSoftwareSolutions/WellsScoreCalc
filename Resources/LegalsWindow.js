@@ -38,7 +38,7 @@ exports.Create = function() {
         + "The copyright is held by Neville Dastur and the application is distributed by "
         + "Clinical Software Solutions Ltd</p>"
         + "<h3>Clinical Attributions</h3>"
-        + "The NICE website link <a href=\"http://guidance.nice.org.uk/CG14 \">http://guidance.nice.org.uk/CG144</a>"
+        + "The NICE website link <a href=\"http://guidance.nice.org.uk/CG144 \">http://guidance.nice.org.uk/CG144</a>"
         + "<p>Wells PS et al. (2000) Derivation of a simple clinical model to categorize patients’ probability of pulmonary embolism: increasing the model’s utility with the SimpliRED D-dimer. Thrombosis and Haemostasis 83: 416–20</p>"
         + "<p>Wells PS et al. (2003) Evaluation of D-dimer in the diagnosis of suspected deep-vein thrombosis.</p>"
         + "<h3>Image Attributions</h3>"
