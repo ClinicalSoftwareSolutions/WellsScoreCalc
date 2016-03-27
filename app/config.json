@@ -1,0 +1,17 @@
+{
+    "global": {
+        "buildDate": "Sun, 27 Mar 2016 22:16:58 GMT",
+        "buildRev": "3fab967"
+    },
+    "env:development": {},
+    "env:test": {},
+    "env:production": {},
+    "os:android": {},
+    "os:blackberry": {},
+    "os:ios": {},
+    "os:mobileweb": {},
+    "os:windows": {},
+    "dependencies": {
+        "it.apra.tiimageviewer": "*"
+    }
+}

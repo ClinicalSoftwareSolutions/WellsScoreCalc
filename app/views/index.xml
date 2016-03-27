@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class="container">
+		<Label id="header" class="header" top="50">Please select which type of thrombosis you wish to score</Label>
+		<Label id="button_dvt" class="button" onClick="doDVT" top="110">DVT</Label>
+		<Label id="button_pe" class="button" onClick="doPE" top="200">PE</Label>
+
+		<Label id="button_legal" class="button_plain" onClick="doLegal" bottom="30">Legal Notices</Label>
+	</Window>
+</Alloy>

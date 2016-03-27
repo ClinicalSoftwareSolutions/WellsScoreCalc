@@ -1,0 +1,17 @@
+<Alloy>
+  <Window id="win" title="" class="container">
+    <Label id="header">Please select items</Label>
+    <ListView id="listview" defaultItemTemplate="score_item">
+    <Templates>
+      <ItemTemplate name="score_item" class="score_item">
+        <Label bindId="title" id="question" class="score_item_text"/>
+        <ImageView bindId="indicator" id="tick" class="score_item_tick"/>
+      </ItemTemplate>
+    </Templates>
+    <ListSection>
+    </ListSection>
+    </ListView>
+    <Label id="score_lbl">Score: 0</Label>
+    <Label id="close">Close</Label>
+  </Window>
+</Alloy>

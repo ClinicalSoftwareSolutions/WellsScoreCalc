@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ScrollView id="scrollview">
+			<Module module="ti.styledlabel" id="styledlabel" method="createLabel" backgroundColor="#fff" />
+		</ScrollView>
+		<Label id="close" onClick="doClose">Close</Label>
+	</Window>
+</Alloy>

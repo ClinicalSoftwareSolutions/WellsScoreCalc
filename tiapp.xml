@@ -1,57 +1,71 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ti:app xmlns:ti="http://ti.appcelerator.org">
-    <deployment-targets>
-        <target device="tizen">false</target>
-        <target device="mobileweb">false</target>
-        <target device="iphone">true</target>
-        <target device="ipad">true</target>
-        <target device="android">true</target>
-        <target device="blackberry">false</target>
-    </deployment-targets>
-    <sdk-version>3.0.2.GA</sdk-version>
+<?xml version="1.0" encoding="UTF-8"?><ti:app xmlns:ti="http://ti.appcelerator.org">
     <id>uk.co.clinicalsoftwaresolutions.wellsscorecalc</id>
     <name>Wells Score</name>
-    <version>1.0.7</version>
-    <publisher>nevilledastur</publisher>
-    <url>http://www.clinicalsoftwaresolutions.co.uk</url>
+    <version>1.0.8</version>
+    <publisher>Clinical Software Solutions</publisher>
+    <url>http://www.clinsoftsolutions.com/app_gallery/wells_score_calc_app.html</url>
     <description>Clinical calculator for the Wells score. Used in assessment of VTEs, pulmonary embolism (PE) and deep vein thrombosis (DVT)</description>
-    <copyright>2012 by Neville Dastur</copyright>
+    <copyright>2012-6 by Neville Dastur</copyright>
     <icon>appicon.png</icon>
-    <persistent-wifi>false</persistent-wifi>
-    <prerendered-icon>false</prerendered-icon>
-    <statusbar-style>default</statusbar-style>
-    <statusbar-hidden>false</statusbar-hidden>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
     <guid>6b3f26cb-eff1-4054-ae6c-badcb8a38c0e</guid>
-    <property name="ti.ui.defaultunit">system</property>
-    <property name="ti.android.bug2373.finishfalseroot" type="bool">true</property>
-    <iphone>
-        <orientations device="iphone">
-            <orientation>Ti.UI.PORTRAIT</orientation>
-        </orientations>
-        <orientations device="ipad">
-            <orientation>Ti.UI.PORTRAIT</orientation>
-            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
-            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
-            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
-        </orientations>
-    </iphone>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+      <min-ios-ver>7.0</min-ios-ver>
+      <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+      <default-background-color>#fff</default-background-color>
+      <plist>
+        <dict>
+          <key>UISupportedInterfaceOrientations~iphone</key>
+          <array>
+            <string>UIInterfaceOrientationPortrait</string>
+          </array>
+          <key>UISupportedInterfaceOrientations~ipad</key>
+          <array>
+            <string>UIInterfaceOrientationPortrait</string>
+            <string>UIInterfaceOrientationPortraitUpsideDown</string>
+            <string>UIInterfaceOrientationLandscapeLeft</string>
+            <string>UIInterfaceOrientationLandscapeRight</string>
+          </array>
+          <key>UIRequiresPersistentWiFi</key>
+          <false/>
+          <key>UIPrerenderedIcon</key>
+          <false/>
+          <key>UIStatusBarHidden</key>
+          <false/>
+          <key>UIStatusBarStyle</key>
+          <string>UIStatusBarStyleDefault</string>
+        </dict>
+      </plist>
+    </ios>
     <android xmlns:android="http://schemas.android.com/apk/res/android">
-        <manifest android:installLocation="auto" android:versionCode="6" android:versionName="1.0.6">
-            <supports-screens android:anyDensity="false"/>
+        <manifest android:installLocation="auto" android:versionCode="8" android:versionName="1.0.8">
         </manifest>
     </android>
     <mobileweb>
-        <precache/>
-        <splash>
-            <enabled>true</enabled>
-            <inline-css-images>true</inline-css-images>
-        </splash>
-        <theme>default</theme>
+      <precache></precache>
+      <splash>
+        <enabled>true</enabled>
+        <inline-css-images>true</inline-css-images>
+      </splash>
+      <theme>default</theme>
     </mobileweb>
     <modules>
-        <module platform="iphone" version="1.0.3">com.clinsoftsolutions.testflight</module>
-    </modules>
+    <module platform="android">org.iotashan.titouchimageview</module>
+    <module platform="android">ti.styledlabel</module>
+    <module platform="iphone">ti.styledlabel</module>
+  </modules>
+    <deployment-targets>
+        <target device="mobileweb">false</target>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="android">true</target>
+        <target device="windows">true</target>
+    </deployment-targets>
+    <sdk-version>5.2.0.GA</sdk-version>
+    <plugins>
+      <plugin version="1.0">ti.alloy</plugin>
+  </plugins>
 </ti:app>

@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="win" class="container">
+		<Widget src="it.apra.tiimageviewer" id="imageview" lowerGradientHidden="true" lowerInfoHidden="true" backgroundColor="#fff"/>
+		<Label id="close">Close</Label>
+	</Window>
+</Alloy>

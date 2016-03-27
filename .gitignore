@@ -1,6 +1,12 @@
 .DS_Store
-# Build folder and log file
-build/
+Resources
 build.log
+build
+npm-debug.log
+tmp
+.map
+.project
 .settings
-Store Assets/Wells Score.ipa
+Thumbs.db
+/i18n
+/platform

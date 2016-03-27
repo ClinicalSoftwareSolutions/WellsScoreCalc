@@ -1,0 +1,52 @@
+
+".container" : {
+  backgroundColor: "white"
+}
+
+"#header": {
+  top: 40
+}
+
+"#close": {
+  top: 20,
+  right: 5,
+  color: '#000',
+  width: Ti.UI.SIZE,
+  height: 42,
+}
+
+"#score_lbl": {
+  borderRadius: 3,
+  bottom: 18,
+  width: 200,
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+}
+"#listview": {
+  borderWidth: 1,
+  borderColor: "gray",
+  borderRadius: 2,
+  top: 70,
+  bottom: 70,
+  left: 10,
+  right: 10,
+  separatorColor: 'black',
+  separatorStyle: 1
+}
+
+".score_item": {
+  height: 54
+}
+
+".score_item_text": {
+  textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+  color: "#000",
+  font:{fontSize: '12dp'},
+	left: '10dp',  right: '56dp',
+	height: Ti.UI.SIZE,
+}
+
+".score_item_tick": {
+  height: 36,
+  width: 36,
+  right: 10
+}
