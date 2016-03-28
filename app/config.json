@@ -1,7 +1,7 @@
 {
     "global": {
-        "buildDate": "Sun, 27 Mar 2016 22:16:58 GMT",
-        "buildRev": "3fab967"
+        "buildDate": "Sun, 27 Mar 2016 22:44:27 GMT",
+        "buildRev": "55e0f62"
     },
     "env:development": {},
     "env:test": {},
