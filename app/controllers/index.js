@@ -1,3 +1,5 @@
+/* global Alloy, Ti, $ */
+
 function doDVT (e) {
     Alloy.createController('score', {type: 'dvt'}).getView().open();
 }

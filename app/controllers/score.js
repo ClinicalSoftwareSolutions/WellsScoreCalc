@@ -1,3 +1,5 @@
+/* global Alloy, Ti, $ */
+
 // Arguments passed into this controller can be accessed via the `$.args` object directly or:
 var args = $.args || {};
 var totalScore  = 0;
@@ -29,8 +31,7 @@ var peScoreItems = [
   {text: 'Malignancy (on treatment, treated in the last 6 months, or palliative)', score: 1}
 ];
 
-$.init = function() {
-
+$.init = function () {
   var score_items = (args.type === 'dvt') ? dvtScoreItems : peScoreItems;
   $.win.title = (args.type === 'dvt') ? 'DVT Wells Score' : 'PE Wells Score';
 
@@ -47,7 +48,7 @@ $.init = function() {
         	itemId: x,
           checkStatus: 0,
           score: score_items[x].score,
-        	accessoryType: Ti.UI.LIST_ACCESSORY_TYPE_NONE,
+        	accessoryType: Ti.UI.LIST_ACCESSORY_TYPE_NONE
       }
     });
   }
